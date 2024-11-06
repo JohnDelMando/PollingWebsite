@@ -1,0 +1,360 @@
+/* MAIN PAGE CSS */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main-page {
+    display: flex;
+    height: 100%;
+}
+
+.left-page, .right-page {
+    flex: 1;
+    height: 100%;
+}
+
+.left-page {
+    background-color: #f5f5dc;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.right-page {
+    background-color: #008080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form{
+    width: 450px;
+    border: 2px black solid;
+    background-color: #f5f5dc;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.login-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #008080;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.login-button:hover {
+    background-color: #003f3f;
+    cursor: pointer;
+}
+
+.web-title {
+    margin-top: 30%;
+}
+
+.the-title {
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+}
+
+.seperator {
+    border-top: 4px black dotted;
+    margin: 20px 0;
+}
+
+.polls-div {
+    margin-top: auto;
+}
+
+.poll-item {
+    margin-bottom: 15px;
+}
+
+.signup-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #008080;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.signup-button:hover {
+    background-color: #003f3f;
+    cursor: pointer;
+}
+
+/* SIGNUP PAGE CSS*/
+
+.signup-left-page, .right-page {
+    flex: 1;
+    height: 100%;
+}
+
+.signup-left-page {
+    background-color: #f5f5dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-title {
+    text-align: center;
+    border: 4px black dotted;
+    padding: 40px;
+    font-size: larger;
+}
+
+#avatarID {
+    background-color: #008080;
+}
+
+.avatar-button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #008080;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.avatar-button:hover {
+    background-color: #003f3f;
+    cursor: pointer;
+}
+
+/* PAGE MANAGEMENT PAGE CSS */
+
+.pmg-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #f5f5dc;
+    border-bottom: solid 2px black;
+}
+
+.pmg-header-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.exit-button {
+    padding: 3px 8px;
+    color: white;
+    font-weight: bolder;
+    background-color: red;
+    border: none;
+}
+
+.exit-button:hover {
+    cursor: pointer;
+    background-color: rgb(165, 0, 0);
+}
+
+.pmg-main-page {
+    display: flex;
+    height: 100%;
+}
+
+.pmg-left-page {
+    width: 20%;
+    background-color: #f5f5dc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pmg-right-page {
+    width: 80%;
+    background-color: #008080;
+    overflow-y: scroll;
+}
+
+.post-card {
+    position: relative;
+    background-color: #f5f5dc;
+    border-radius: 4px;
+    border: 2px black solid;
+    padding: 20px;
+    margin: 50px;
+}
+
+.post-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.post-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.post-details {
+    font-size: 12px;
+    color: #888;
+}
+
+.pmg-user-profile {
+    margin-bottom: 20px;
+}
+
+.pmg-user-avatar {
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+    margin: 40px 15px 15px;
+    border: black 2px solid;
+    border-radius: 4px;
+}
+
+.pmg-username {
+    font-weight: bold;
+    margin-left: 14px;
+    margin-top: 0;
+}
+
+.create-poll-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #008080;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.create-poll-button:hover {
+    background-color: #003f3f;
+    cursor: pointer;
+}
+
+/* POLL VOTE PAGE, POLL RESULT PAGE, POLL-CREATION-PAGE CSS*/
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #008080;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #f5f5dc;
+    border-bottom: solid 2px black;
+}
+
+.header-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.poll-container {
+    width: 450px;
+    height: 400px;
+    border: 2px black solid;
+    background-color: #f5f5dc;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.create-poll-container {
+    width: 450px;
+    height: 650spx;
+    border: 2px black solid;
+    background-color: #f5f5dc;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.poll-user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    object-fit: fill;
+    margin: 15px 15px 15px;
+    border: black 2px solid;
+    border-radius: 4px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.poll-question {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.poll-options {
+    margin-bottom: 20px;
+}
+
+.poll-option {
+    margin-bottom: 10px;
+}
+
+.submit-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #008080;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.submit-button:hover {
+    background-color: #003f3f;
+    cursor: pointer;
+}
+
+#poll-askID {
+    height: 50px;
+    width: 400px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* ASSIGNMENT 3 */
+.error-text {
+    color: red;
+    font-style: italic;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.invalid {
+    border: 3px solid red;
+}
+
+.qchar-limit {
+    color: #008080;
+    float: right;
+    margin-right: 25px;
+}
+
+.cchar-limit {
+    color: #008080;
+    margin-left: 125px;
+}
